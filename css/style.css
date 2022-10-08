@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  border-bottom: 2px solid;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+main {
+}
+.todo-list {
+  height: 320px;
+  overflow-y: scroll;
+  font-size: 22px;
+}
+.todo-list li {
+  margin-top: 8px;
+}
+.todo-list::-webkit-scrollbar {
+  display: none;
+}
+.clock {
+  display: flex;
+  margin: 150px, 0, 30px, 0;
+
+  justify-content: center;
+  font-size: 128px;
+}
+.login-form,
+.todo-form {
+  display: flex;
+  justify-content: center;
+}
+.todo-form {
+  margin-top: 100px;
+}
+.login-form input {
+  font-size: 45px;
+  text-align: center;
+  width: 450px;
+  height: 40px;
+}
+.greeting {
+  text-align: center;
+  font-size: 42px;
+}
+.todo-form input {
+  font-size: 38px;
+  width: 320px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.quote {
+  position: absolute;
+  left: 5px;
+  bottom: 0px;
+}
+.weather {
+  position: absolute;
+  top: 24px;
+  right: 15px;
+}
